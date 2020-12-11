@@ -1,0 +1,99 @@
+@font-face{
+    font-family: Thinking;
+    src: url(../assets/fonts/Thinking_of_Betty.ttf);
+  }
+.about-section-home {
+    /* background: url(../assets/home/pic.jpg) no-repeat left; */
+    background: linear-gradient(45deg, #0f7699, #e5658a) no-repeat left;
+    background-size: 100%;
+    /* background-size: 55%; */
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 90px 0;
+}
+
+.inner-container-home {
+    width: 70%;
+    height: 540px;
+    margin: 5px auto;
+    padding: 25px 20px 20px 50px;
+    box-shadow: 0 2px 20px 0 rgba(221, 46, 163, 0.3) !important ;
+    background: url(../assets/home/outubro-rosa.png) no-repeat left #fdfdfd;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.3) !important ;
+    
+
+}
+.inner-container-text{
+   width: 90%;
+   height: 65%;
+   float: right;
+   padding-left: 80px;
+   padding-right: 20px;
+}
+.inner-container-titulo h3{
+    font-size: 40px;
+    font-family: Thinking;
+    color: #DD2EA2;
+    padding-bottom: 20px;
+
+}
+.inner-container-text p{
+    font-size: 13pt;
+    font-weight: 400 !important;
+    line-height: 22px;
+}
+
+
+/* .inner-container-home h1 {
+    font-size: 30pt;
+    font-weight: 900;
+} */
+.skills-home {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+
+@media screen and (max-width:1200px) {
+    .inner-container-home {
+        padding: 40px 40px 10px 40px;
+        background: #fdfdfd;
+        background-size: 100%;
+        height: 500px !important;
+    }
+    .inner-container-text{
+        width: 100%;
+        /* height: 65%; */
+        padding-left: 0px;
+     }
+
+    
+}
+
+@media screen and (max-width:1000px) {
+    .about-section-home {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .inner-container-home {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section-home {
+        padding: 0px;
+    }
+
+    .inner-container-home {
+        padding: 25px 10px 10px 10px;
+        border-radius: 0px;
+        height:700px !important;
+        
+    }
+}

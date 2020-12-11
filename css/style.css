@@ -1,0 +1,444 @@
+@font-face{
+    font-family: Thinking;
+    src: url(../assets/fonts/Thinking_of_Betty.ttf);
+  }
+
+body{
+    color:#956a9b !important;
+    font-weight: 400 !important;
+
+}
+.lead{
+    font-weight: 400 !important;
+}
+
+/* cabecalho */
+.titulo{
+    padding: 50px;
+    font-family: Thinking;
+    color: #DD2EA2;
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+.navbar{
+    background-color:#F5D3E1 ;
+}
+
+.navbar-nav a{
+    padding-top: 1.2em;
+    font-size: 14px;
+    font-weight: 600;
+    color:#EC31A9  !important;
+   
+}
+
+a:hover {
+    transition: .3s;
+    /* color:#EE5AA6 !important; */
+    color:#8f1564!important;
+   
+}
+
+.header-site{
+    background-image: url(../assets/img/01.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    padding-top: 400px;
+    padding-bottom: 450px;
+}
+.titulo-estilo{
+    position: absolute;
+    font-size: 80pt !important;
+    top: 200px;
+    right: 10%;
+    max-width: 100%;
+    height:auto;
+}
+
+
+.btn-sintomas{
+    margin-bottom: 20px;
+    background-color: #FE609D !important;
+    height: 4rem;
+    width:  4rem;
+    color: #ffffff !important;
+    
+}
+
+
+.sintomas-item-custom p{
+    color:#956a9b;
+    padding: 3px 9px;
+    line-height: 110% !important;
+    max-width: 100%;
+
+}
+
+.sintomas-custom h1 {
+    /* color:#feb6b7; */
+    color: #f033b1;
+    font-family: Thinking;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    /* padding: 50px; */
+    margin-top: 30px !important;
+}
+
+.sintomas-legenda-custom{
+    background-color: #F6D2E0;
+    color:#7A4381 ;
+    padding: 10px;
+    font-size: 12pt;
+}   
+
+.table-custom{
+    color: #956a9b !important;
+    box-shadow: 0 2px 20px 0 rgba(221, 46, 163, 0.1) !important ;
+}
+
+.table-custom-tr:hover{
+    background-color:  #F6D2E0 !important ;
+    color: #956a9b !important;
+}
+
+.fatores-custom-thead{
+    background-color: #7A4381;
+    color:#ffffff ;
+}
+
+.thead-titulo{
+    padding-bottom: 25px !important;
+}
+
+
+/* Diagnostico */
+.image-diagnostico{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+/* Preveção */
+.prevencao-custom{
+    /* background: linear-gradient(45deg, #F185B6, #9452EC); */
+    background: linear-gradient(45deg, #0f7699, #e5658a);
+    padding-bottom: 10px !important;
+
+}
+
+.prevencao-custom h1{
+    margin: auto;
+    color: #ffffff ;
+}
+.prevencao-custom p{
+    margin: auto;
+   color: #ffffff ;
+   padding-bottom: 60px;
+}
+.prevencao-custom-conteiner{
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    
+}
+.prevencao-custom-row{
+    margin: auto !important;
+    margin-bottom: 30px !important;
+    width: 60%;
+}
+
+.image-prevencao{
+    width: 175px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+
+#atividadeFisicaIcone{
+    cursor: pointer;
+    transition: .2s;
+    background: url(../assets/prevecao/atividadeFisicaIcone.png) no-repeat center;
+}
+#atividadeFisicaIcone:hover{
+    background: url(../assets/prevecao/atividadeFisicaFrase.png) no-repeat center;
+}
+#alimentarSeIcone{
+    cursor: pointer;
+    transition: .2s;
+    background: url(../assets/prevecao/alimentarSeIcone.png) no-repeat center;
+}
+#alimentarSeIcone:hover{
+    background: url(../assets/prevecao/alimentarSeFrase.png) no-repeat center;
+}
+#manterOPesoIcone{
+    cursor: pointer;
+    transition: .2s;
+    background: url(../assets/prevecao/manterOPesoIcone.png) no-repeat center;
+}
+#manterOPesoIcone:hover{
+    background: url(../assets/prevecao/manterOPesoFrase.png) no-repeat center;
+}
+#bebidaAlcoolicaIcone{
+    cursor: pointer;
+    transition: .2s;
+    background: url(../assets/prevecao/bebidaAlcoolicaIcone.png) no-repeat center;
+}
+#bebidaAlcoolicaIcone:hover{
+    background: url(../assets/prevecao/bebidaAlcoolicaFrase.png) no-repeat center;
+}
+#amamentarIcone{
+    cursor: pointer;
+    transition: .2s;
+    background: url(../assets/prevecao/amamentarIcone.png) no-repeat center;
+}
+#amamentarIcone:hover{
+    background: url(../assets/prevecao/amamentarFrase.png) no-repeat center;
+}
+#hormoniosIcone{
+    cursor: pointer;
+    transition: .2s;
+    background: url(../assets/prevecao/hormoniosIcone.png) no-repeat center;
+}
+#hormoniosIcone:hover{
+    background: url(../assets/prevecao/hormoniosFrase.png) no-repeat center;
+}
+
+
+/* FAQ */
+.custom-faq{
+   padding-top: 80px;
+    padding-bottom: 120px;
+   
+}
+.custom-faq-img {
+    padding-bottom: 10px !important;
+}
+.card-faq,.card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    /* margin-bottom: 20px; */
+}
+
+.card-faq{
+    box-shadow: 0 2px 20px 0 rgba(221, 46, 163, 0.1) !important ;
+    margin-bottom: 10px;
+}
+
+.btn-link{
+    width: 100%;
+    height: 60px;
+    color: #DD2EA2 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+.card-body{
+    background: rgba(221, 46, 163, 0.1) !important;
+}
+.btn-link:after{
+    content: '\2212';
+    width: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+    background: rgba(221, 46, 163, 0.1);
+}
+.btn-link,.collapsed:after{
+    content: '\002B';
+}
+.btn-link:before{
+    content: '';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background: #ffffff;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 30px;
+    top: 46px;
+
+}
+
+/* AGENDA */
+.agenda-custom{
+    background: linear-gradient(45deg, #0f7699, #e5658a);
+    /* padding-bottom: 10px !important; */
+}
+
+.agenda-custom h1{
+    color: #ffffff !important;
+}
+
+.agenda-custom-campo{
+    padding-top: 80px;
+     padding-bottom: 120px;
+    /* background-color: red; */
+    
+ }
+
+#subtext-agenda{
+    color: #ffffff;
+    margin-bottom: -50px;
+}
+
+.accordion{
+    margin-bottom: 5px;
+}
+
+
+.card-uf,.card-header{
+    background-color: #ffffff !important;
+    border: none !important;
+    padding: 0 !important;
+    
+}
+
+
+.botao-flutuante, .botao-flutuante a{   
+    position: fixed;
+    /* cursor: pointer; */
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    right: 10px;
+    bottom: 2%;
+    z-index: 20;
+    line-height: 2.6em;
+    text-align: center;
+    background-color: #DD2EA3;
+    box-shadow: 0 1px 5px rgba(0,0,0,.4);
+}
+
+.footer-custom{
+    background-color: #7A4381;
+    color:#ffffff ;
+    height:170px;
+    padding: 25px;
+}
+
+.footer-custom li{
+    list-style-type: none;
+}
+.footer-custom a{
+    margin: 10px;
+}
+.footer-custom a:hover{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    /* .titulo{
+        padding: 120px 10px 120px 50px;
+
+    }  */
+
+    .titulo-estilo{
+        right: 0px !important;
+    }
+    .sintomas-item-custom p{
+       margin-left: 4% !important;
+    }
+    .sintomas-item-custom{
+        line-height:100px;
+
+    }
+    .image-moca{
+       display: inline-block;
+       text-align: center;
+    }
+    .thead-titulo{
+        padding-bottom: 0px !important;
+    }
+    .btn-link:before{
+       background: transparent;
+    }
+     .prevencao-custom-row{
+        margin: auto !important;
+        margin-bottom: 0px !important;
+        width: 600px;
+    } 
+    .image-diagnostico{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+    .custom-faq-img {
+        margin-top: -100px;
+    }
+    .custom-diaD{
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .titulo{
+        padding: 120px 10px 120px 50px;
+
+    }
+    .titulo-estilo{
+        font-size: 70pt !important;
+        right: 0px !important;
+    }
+    .prevencao-custom-row{
+           margin: none !important;
+           margin-bottom: 0px !important;
+           width: auto;
+        } 
+
+        .custom-diaD{
+            margin-top: 10px;
+            max-width: 100%;
+        }
+
+    }
+
+@media (max-width:600px){
+    .titulo{
+        margin: auto;
+        font-size: 55px !important;
+    }
+    .custom-faq{
+        padding-top: 0px;
+    }
+    .btn-link-faq{
+        padding-top: 40px !important;
+        height: 120px;
+       
+    }
+    .sintomas-custom h1{
+        text-align: center !important;
+    }
+
+    .agenda-custom-campo{
+        padding-bottom: 0px;
+        
+    }
+    .agenda-custom-campo-outros{
+        padding-top: 0px;    
+    }
+
+    .sintomas-item-custom p{
+        padding: 3px 3px 3px 25px;
+    }
+    .justify-text-lg-center{
+        text-align: center;
+    }
+    #number1{
+        margin-top: 50px;
+    }
+    .footer-custom{
+        height:250px;
+    }
+}
+ 
+    
+    
+    
+    

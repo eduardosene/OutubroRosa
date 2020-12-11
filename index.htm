@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outubro Rosa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="assets/icon/favicon.ico">
+    <!-- BootstrapCDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Inicio Função Google Analitycs -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-8958793-1");
+			pageTracker._trackPageview();
+		} catch (err) { }
+	</script>
+	<!-- Fim Função Google Analitycs -->
+	<script>
+            /** Inicio Função Google Analitycs para links externos
+            * Função que acompanha um clique em um link externo no Google Analytics.
+            * Essa função processa uma string de URL válida como um argumento e usa essa string de URL
+            * como o rótulo do evento.
+            */
+            var trackOutboundLink = function(url) {
+            	ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+            		function () {
+            			document.location = url;
+            		}
+            	});
+            }
+            function MM_swapImgRestore() { //v3.0
+            	var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+            }
+            function MM_preloadImages() { //v3.0
+            	var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+            		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+            		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+            	}
+            	
+            function MM_findObj(n, d) { //v4.01
+            	var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+            		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+            		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+            		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+            			if(!x && d.getElementById) x=d.getElementById(n); return x;
+            	}
+            	
+            function MM_swapImage() { //v3.0
+            	var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+            	if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+            }
+        </script>
+   <!-- Fim Função Google Analitycs para links externos -->
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light text-uppercase fixed-top navbar-custom" id="nav">
+        <div class="container">
+            <div class="navbar-brand ">
+                <a href="#">
+                    <img src="assets/img/logo.png" alt="logotipo Cassi">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto " >
+                    <li class="nav-item ">
+                        <a href="#home"  class="nav-link">home </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#sobre"  class="nav-link">sobre </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#saiba" class="nav-link">Saiba mais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#prevencao" class="nav-link">Prevenção</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ainda_tem_duvida" class="nav-link">Ainda tem dúvidas? </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#agenda" class="nav-link">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#diaD" class="nav-link">Dia D</a>
+                  </li>
+                </ul>
+                    
+               </div> 
+            
+        </div>
+    </nav>
+    <section class="header-site" id="home">
+        <!-- <img src="assets/img/titulo_fundo.png" class="titulo-estilo" alt="Responsive image"> -->
+        <h1 class="page-section-heading text-center mb-0 titulo titulo-estilo">
+            Outubro<br>Rosa
+        </h1>
+        <div class="container"></div>
+    </section>
+
+    <section class="body-home " id="sobre">
+        <!-- <div class="container"></div> -->
+            <div class="about-section-home sintomas-custom">
+              <div class="inner-container-home">
+                <div class="inner-container-titulo">
+                  <h3 class="page-section-heading text-center mb-0 ">
+                    Vamos falar sobre <br>o câncer de mama?
+                </h3>
+                </div>
+                <div class="inner-container-text">
+                  
+                <p class="lead text-justify">
+                  Falar sobre câncer de mama nem sempre é uma tarefa simples, mas conversar sobre o tema abertamente ajuda mulheres em todo o mundo a descobrirem a importância da prevenção. A postura atenta em relação à saúde das mamas é fundamental para a detecção precoce do câncer da mama.
+                </p>
+                  <p class="lead text-justify">
+                  Segundo estimativas do Instituto Nacional de Câncer (INCA), vamos fechar o ano de 2020 com cerca de 66 mil novos casos.
+                </p>
+                <p class="lead text-justify">
+                  O câncer de mama é uma doença causada pela multiplicação desordenada de células da mama. Esse processo gera células anormais que se multiplicam, formando um tumor. Embora raro, a doença também acomete homens, apenas 1% do total de casos. 
+              </p>
+                </div>
+              </div>
+          </div>
+    </section>
+    <section class="page-section" id="saiba">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page-section-heading text-center mb-0 titulo">
+                        Saiba tudo sobre a doença
+                    </h1>
+                    <br>
+                </div>
+            </div>
+            <!-- inicio sintomas -->
+            <div class="row sintomas-custom">
+                <div class="col">
+                    <h1 class="page-section-heading text-left  mb-0">
+                        Sintomas 
+                    </h1>
+                    <p class="lead justify-text-lg-center">
+                        O <strong> câncer de mama </strong> pode ser percebido em fases iniciais, na maioria dos casos, por meio dos seguintes sinais e sintomas:
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 image-moca">
+                    <img class="mx-auto" src="assets/saiba/sintomas-outubro-rosa.png" alt="" />
+                </div>
+                <div class="col-lg-8 ">    
+
+                        <div class="row sintomas-item-custom ">
+                            <div class="col-1">
+                                <samp class="btn btn-sintomas rounded-circle" id="number1"><h1> <strong>1</strong></h1></samp>
+                              </div>
+                              <div class="col-11 d-flex align-items-center">
+                                <p class="lead text-justify">
+                                    Nódulo (caroço), fixo e geralmente indolor: é a principal manifestação da doença, estando presente em cerca de 90% dos casos quando o câncer é percebido pela própria mulher.
+                                </p>
+                              </div>
+                        </div> 
+
+                        <div class="row sintomas-item-custom">                 
+                            <div class="col-1">
+                                <samp class="btn btn-sintomas rounded-circle"><h1> <strong>2</strong></h1></samp>
+                              </div>
+                              <div class="col-11 d-flex align-items-center">
+                                <p class="lead text-justify">
+                                    Pele da mama avermelhada, retraída ou parecida com casca de laranja.
+                                </p>
+                              </div>
+                           
+                        </div>
+
+                        <div class="row sintomas-item-custom">
+                            <div class="col-1">
+                                <samp class="btn btn-sintomas rounded-circle"><h1> <strong>3</strong></h1></samp>
+                              </div>
+                              <div class="col-11 d-flex align-items-center">
+                                <p class="lead text-justify">
+                                    Alterações no bico do peito (mamilo).
+                                </p>
+                              </div>
+                        </div>
+
+                        <div class="row sintomas-item-custom">
+                            <div class="col-1">
+                                <samp class="btn btn-sintomas rounded-circle"><h1> <strong>4</strong></h1></samp>
+                              </div>
+                              <div class="col-11 d-flex align-items-center">
+                                <p class="lead text-justify">
+                                    Pequenos nódulos nas axilas ou no pescoço.
+                                </p>
+                              </div>
+                        </div>
+                  
+                        <div class="row sintomas-item-custom">
+                            <div class="col-1 ">
+                                <samp class="btn btn-sintomas rounded-circle"><h1> <strong>5</strong></h1></samp>
+                              </div>
+                              <div class="col-11 d-flex align-items-center">
+                                <p class="lead text-justify">
+                                    Saída espontânea de líquido anormal pelos mamilos.
+                                </p>
+                              </div>
+                        </div>
+                   
+                </div>
+            </div>
+
+            <div class="row sintomas-legenda-custom text-center">
+                <div class="col">
+                    
+                        <h5>IMPORTANTE! </h5>
+                        <p>
+                        Estes sinais e sintomas devem sempre ser investigados por um médico para que seja avaliado o risco.
+                    </p>
+                </div>
+            </div>
+            <br> <br>
+           <!-- fim sintomas--> 
+           <!-- inicio fatores de risco -->
+          
+
+           <div class="row sintomas-custom">
+            <div class="col">
+                <h1 class="page-section-heading text-left">
+                    Fatores de Risco 
+                </h1>
+                <p class="lead justify-text-lg-center">
+                    O <strong>câncer de mama</strong> não tem somente uma causa. Veja na tabela fatores que aumentam o risco:
+                </p>
+            </div>
+        </div>
+        <table class="table-responsive table-hover table-bordered table-custom table-striped w-auto">
+            <thead>
+              <tr class="text-center fatores-custom-thead">
+                <th scope="col" >Fatores ambientais e comportamentais</th>
+                <th scope="col" class="thead-titulo">Fatores da história reprodutiva e hormonal</th>
+                <th scope="col" class="thead-titulo">Fatores genéticos e hereditários</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-custom-tr">
+                <td>Obesidade e sobrepeso após a menopausa</td>
+                <td>Primeira menstruação antes de 12 anos</td>
+                <td>História familiar de câncer de ovário</td>
+              </tr>
+              <tr  class="table-custom-tr">
+                <td>Sedentarismo e inatividade física</td>
+                <td>Não ter tido filhos</td>
+                <td>Casos de câncer de mama na família, principalmente antes dos 50 anos</td>
+              </tr>
+              <tr  class="table-custom-tr">
+                <td>Consumo de bebida alcoólica</td>
+                <td>Primeira gravidez após os 30 anos</td>
+                <td>História familiar de câncer de mama em homens</td>
+              </tr>
+              <tr  class="table-custom-tr">
+                <td>Exposição frequente a radiações ionizantes (Raios-X)</td>
+                <td>Parar de menstruar (menopausa) após os 55 anos</td>
+                <td>Alteração genética, especialmente nos genes BRCA1 e BRCA2</td>
+              </tr>
+              <tr  class="table-custom-tr">
+                <td></td>
+                <td>Uso de contraceptivos hormonais (estrogênio-progesterona)</td>
+                <td></td>
+              </tr>
+              <tr  class="table-custom-tr">
+                <td></td>
+                <td>Ter feito reposição hormonal pós-menopausa, principalmente por mais de cinco anos</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <div class="lead text-justify ">
+              <p>O câncer de mama de caráter genético/hereditário corresponde a apenas 5% a 10% do total de casos.</p>
+              <p> <strong>Atenção:</strong> a presença de um ou mais desses fatores de risco não significa que a mulher necessariamente terá a doença.</p>
+              <p>É importante que as mulheres observem suas mamas sempre que se sentirem confortáveis para tal (seja no banho, no momento da troca de roupa ou em outra situação do cotidiano), sem técnica específica, valorizando a descoberta casual de pequenas alterações mamárias. Em caso de permanecerem as alterações, elas devem procurar os serviços de saúde para avaliação diagnóstica.</p>
+            </div>
+            <!-- fim fatores de risco--> 
+           <!-- inicio Diagnóstico  -->
+          
+            <br>
+            <div class="row sintomas-custom">
+                <div class="col-lg-8">
+                    <h1 class="page-section-heading text-left ">
+                        Diagnóstico  
+                    </h1>
+                    <p class="lead text-justify">
+                        Um nódulo ou outro sintoma suspeito nas mamas deve ser investigado para confirmar se é ou não câncer de mama. Para a investigação, além do exame clínico das mamas, exames de imagem podem ser recomendados, como mamografia, ultrassonografia ou ressonância magnética. A confirmação só é feita, porém, por meio da biópsia, técnica que consiste na retirada de um fragmento do nódulo ou da lesão suspeita por meio de punções (extração por agulha) ou de uma pequena cirurgia. O material retirado é analisado pelo patologista para a definição do diagnóstico.
+                    </p>
+                </div>
+                <div class="col-lg-4 image-diagnostico text-center">
+                    <img class="mx-auto" src="assets/saiba/Diagnostico.png" alt="" />
+                </div>
+            </div>    
+    </div>
+    </div>    
+    </section>
+    <!-- fim Diagnóstico -->
+    <!-- inicio Prevencao -->
+    <section class="page-section prevencao-custom" id="prevencao">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page-section-heading text-center mb-0 titulo">
+                        Prevenção
+                    </h1>
+                    <p class="lead text-center" >
+                     <strong> Cerca de 30% dos casos de câncer de mama podem <br>ser evitados com a adoção de hábitos saudáveis como:</strong>
+                  </p>
+                </div>
+            </div>
+
+            <div class="container text-center prevencao-custom-conteiner">
+              <div class="row prevencao-custom-row" >
+                <div class="col-md-4 image-prevencao sombra" id="atividadeFisicaIcone" width="175px">
+                </div>
+                <div class="col-md-4 image-prevencao" id="alimentarSeIcone" width="175px">
+                </div>
+                <div class="col-md-4 image-prevencao" id="manterOPesoIcone">
+                </div>
+               <!-- </div>
+              <div class="row prevencao-custom-row"> -->
+                <div class="col-md-4 image-prevencao" id="bebidaAlcoolicaIcone">
+                </div>
+                <div class="col-md-4 image-prevencao" id="amamentarIcone">
+                </div>
+                <div class="col-md-4 image-prevencao" id="hormoniosIcone">
+                </div>
+              </div>
+            </div>
+            
+
+        </div>
+    </section>
+<!-- fim Prevencao -->
+    <section class="page-section" id="ainda_tem_duvida">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page-section-heading text-center mb-0 titulo">
+                        Ainda tem dúvidas? 
+                    </h1>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 custom-faq">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card card-faq">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-link-faq btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    O câncer de mama é comum no Brasil?
+                                  </button>
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Sim. É o tipo mais comum, depois do câncer de pele, e também o que causa mais mortes por câncer em mulheres.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card card-faq">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link btn-link-faq btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Só as mulheres têm câncer de mama?
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Não. Homens também podem ter, mas isso é raro (apenas 1% dos casos). 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card card-faq">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link  btn-link-faq btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Como as mulheres podem perceber os sinais e sintomas da doença?
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Todas as mulheres, independentemente da idade, podem conhecer seu corpo para saber o que é e o que não é normal em suas mamas. A maior parte dos cânceres de mama são descobertos pelas próprias mulheres.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card card-faq">
+                              <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link  btn-link-faq btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Quem deve fazer mamografia de rastreamento?
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    A CASSI recomenda que a mamografia seja realizada a cada dois anos em mulheres a partir de 50 anos ou sempre que houver indicação médica.  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card card-faq">
+                                <div class="card-header" id="headingFive">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link btn-link-faq btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Por que a mamografia de rastreamento não é indicada para mulheres com menos de 50 anos?
+                                    </button>
+                                  </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                    Antes dessa idade, as mamas são mais densas e com menos gordura, o que limita o exame e gera muitos resultados incorretos.
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 custom-faq-img text-center">
+                      <img src="assets/aindaTemDuvidas/question.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Fim FAQ -->
+
+    <section class="page-section agenda-custom" id="agenda">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page-section-heading text-center mb-0 titulo">
+                        Agenda
+                    </h1>
+                    <p class="lead text-center" id="subtext-agenda">
+                      Abaixo você encontra a programação de atividades coletivas divulgadas pelas Unidades CASSI.<br><strong>Clique no nome do estado que deseja consultar.</strong>
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-4 agenda-custom-campo">
+                          <div class="accordion" id="accordionAC">
+                              <div class="card card-uf">
+                                <div class="card-header" id="headingAC">
+                                  <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseAC" aria-expanded="false" aria-controls="collapseAC">
+                                        Acre
+                                    </button>
+                                  </h2>
+                                </div>
+                            
+                                <div id="collapseAC" class="collapse" aria-labelledby="headingAC" data-parent="#accordionAC">
+                                  <div class="card-body">
+                                      <h6>Um Toque de Amor – Prevenção do câncer de mama </h6>
+                                      <strong>Data:</strong> 23/10 <br>
+                                      <strong>Horário:</strong> 15h<br>
+                                      <strong>Local:</strong> Plataforma Teams<br>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="accordion" id="accordionAL">
+                              <div class="card card-uf">
+                                <div class="card-header" id="headingAL">
+                                  <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseAL" aria-expanded="false" aria-controls="collapseAL">
+                                        Alagoas  
+                                    </button>
+                                  </h2>
+                                </div>
+                      
+                            <div id="collapseAL" class="collapse" aria-labelledby="headingAL" data-parent="#accordionAL">
+                              <div class="card-body">
+                                Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                                
+                                <div class="accordion" id="accordionAP">
+                                  <div class="card card-uf">
+                                    <div class="card-header" id="headingAP">
+                                      <h2 class="mb-0">
+                                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseAP" aria-expanded="false" aria-controls="collapseAP">
+                                            Amapá 
+                                        </button>
+                                      </h2>
+                                    </div>
+                          
+                                <div id="collapseAP" class="collapse" aria-labelledby="headingAP" data-parent="#accordionAP">
+                                  <div class="card-body">
+                                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           
+
+                            <div class="accordion" id="accordionAM">
+                              <div class="card card-uf">
+                                <div class="card-header" id="headingAM">
+                                  <h2 class="mb-0">
+                                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseAM" aria-expanded="false" aria-controls="collapseAM">
+                                        Amazonas 
+                                    </button>
+                                  </h2>
+                                </div>
+                      
+                            <div id="collapseAM" class="collapse" aria-labelledby="headingAM" data-parent="#accordionAM ">
+                              <div class="card-body">
+                                Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion" id="accordionBA">
+                          <div class="card card-uf">
+                            <div class="card-header" id="headingBA">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseBA" aria-expanded="false" aria-controls="collapseBA">
+                                    Bahia  
+                                </button>
+                              </h2>
+                            </div>
+                  
+                        <div id="collapseBA" class="collapse" aria-labelledby="headingBA" data-parent="#accordionBA">
+                          <div class="card-body">
+                            <h6>“Cuida bem de mim...” </h6>
+                            <strong>Data:</strong> 27/10 <br>
+                            <strong>Horário:</strong> 15h<br>
+                            <strong>Local:</strong> CliniCASSI Salvador<br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion" id="accordionCE">
+                      <div class="card card-uf">
+                        <div class="card-header" id="headingCE">
+                          <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-taratividadeFisicaIconet="#collapseCE" aria-expanded="false" aria-controls="collapseCE">
+                                Ceará   
+                            </button>
+                          </h2>
+                        </div>
+              
+                    <div id="collapseCE" class="collapse" aria-labelledby="headingCE" data-parent="#accordionCE">
+                      <div class="card-body">
+                        <h6>Câncer de mama: o caminho da prevenção </h6>
+                          <strong>Data:</strong> 23/10 <br>
+                          <strong>Horário:</strong> das 15h às 16h <br>
+                          <strong>Local:</strong> Microsoft Teams<br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion" id="accordionDF">
+                  <div class="card card-uf">
+                    <div class="card-header" id="headingDF">
+                      <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseDF" aria-expanded="false" aria-controls="collapseDF">
+                            Distrito Federal    
+                        </button>
+                      </h2>
+                    </div>
+          
+                <div id="collapseDF" class="collapse" aria-labelledby="headingDF" data-parent="#accordionDF">
+                  <div class="card-body text-justify">
+                    <h6>Sensibilização: Agende a sua consulta com Médico de Família </h6>
+                    <strong>Data:</strong> durante todo o mês de outubro <br>
+                    <strong>Horário:</strong> das 8h às 17h <br>
+                    <strong>Local:</strong> CliniCASSI Brasília Norte, Sul e Edifício Sede BB.<br>
+                    <hr/>
+                    <h6>Momento Cor de Rosa (Colaboradores serão convidados a vestirem algum acessório ou roupa na cor rosa)</h6>
+                    <strong>Data:</strong> todas as sextas-feiras outubro <br>
+                    <strong>Local:</strong> CliniCASSI Brasília Norte, Sul e Edifício Sede BB.<br>
+                    <hr/>
+                    <h6>Alimentação e câncer: dicas de prevenção</h6>
+                    <strong>Data:</strong> 21/10 <br>
+                    <strong>Horário:</strong> 9h <br>
+                    <strong>Local:</strong> CliniCASSI Brasília Norte, Sul e Edifício Sede BB.<br>
+                    <hr/>
+                    <h6>Nutrição na prevenção e no controle do câncer de mama</h6>
+                    <strong>Data:</strong> 19/10 <br>
+                    <strong>Horário:</strong> 10h e 17h <br>
+                    <strong>Local:</strong> Plataforma Microsoft Teams na CliniCASSI Edifício Sede BB.<br>
+                    <hr/>
+                    <h6>Cozinhar com a família e piquenique comunitário  </h6>
+                    <strong>Data:</strong> 30 de outubro  <br>
+                    <strong>Horário:</strong> 10h e 15h. <br>
+                    <strong>Local:</strong> CliniCASSI Brasília Sul. <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+                  <div class="accordion" id="accordionES">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingES">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseES" aria-expanded="false" aria-controls="collapseES">
+                              Espírito Santo
+                          </button>
+                        </h2>
+                      </div>             
+                      <div id="collapseES" class="collapse" aria-labelledby="headingES" data-parent="#accordionES">
+                        <div class="card-body">
+                          Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionGO">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingGO">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseGO" aria-expanded="false" aria-controls="collapseGO">
+                              Goiás
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseGO" class="collapse" aria-labelledby="headingGO" data-parent="#accordionGO">
+                        <div class="card-body text-justify">
+                          <h6>Outubro Rosa e o autocuidado</h6>
+                          <strong>Data:</strong> 08/10 <br>
+                          <strong>Horário:</strong> das 14h às 15h <br>
+                          <strong>Local:</strong> CliniCASSI Goiânia - Atividade via plataforma Teams<br>
+                          <hr/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+              <div class="col-md-4 agenda-custom-campo agenda-custom-campo-outros">
+               
+                  <div class="accordion" id="accordionMA">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingMA">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseMA" aria-expanded="false" aria-controls="collapseMA">
+                              Maranhão
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseMA" class="collapse" aria-labelledby="headingMA" data-parent="#accordionMA">
+                        <div class="card-body">
+                          Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionMT">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingMT">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseMT" aria-expanded="false" aria-controls="collapseMT">
+                              Mato Grosso 
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseMT" class="collapse" aria-labelledby="headingMT" data-parent="#accordionMT">
+                        <div class="card-body text-justify">
+                          <h6>Se conecte na prevenção, Toque & Troque comigo!</h6>
+                          <strong>Data:</strong> 09, 16, 23 e 30/10 <br>
+                          <strong>Horário:</strong> 14h <br>
+                          <strong>Local:</strong> Plataforma Teams.<br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionMS">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingMS">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseMS" aria-expanded="false" aria-controls="collapseMS">
+                              Mato Grosso do Sul
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseMS" class="collapse" aria-labelledby="headingMS" data-parent="#accordionMS">
+                        <div class="card-body">
+                          <h6>Outubro Rosa em tempos de pandemia – A importância do autocuidado</h6>
+                          <strong>Data:</strong> 21/10 <br>
+                          <strong>Horário:</strong> 9h  <br>
+                          <strong>Local:</strong> Plataforma Teams - Reunião do Conselho de usuários da CASSI MS <br>
+                          <hr>
+                          <h6>Sexta Rosa - Colaboradores serão convidados a vestirem algum acessório ou roupa na cor rosa</h6>
+                          <strong>Data:</strong>Todas as sextas-feiras de outubro <br>
+                          <strong>Horário:</strong> 9h  <br>
+                          <strong>Local:</strong> CliniCASSI Campo Grande <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionMG">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingMG">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseMG" aria-expanded="false" aria-controls="collapseMG">
+                              Minas Gerais 
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseMG" class="collapse" aria-labelledby="headingMG" data-parent="#accordionMG">
+                        <div class="card-body text-justify">
+                          <h6>Live sobre o Outubro Rosa</h6>
+                          <strong>Data:</strong> 7/10 <br>
+                          <strong>Horário:</strong> das 16h às 17h<br>
+                          <strong>Local:</strong> CliniCASSI Montes Claros, por meio da Plataforma Teams.<br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionPA">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingPA">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsePA" aria-expanded="false" aria-controls="collapsePA">
+                              Pará 
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapsePA" class="collapse" aria-labelledby="headingPA" data-parent="#accordionPA">
+                        <div class="card-body">
+                          <h6>Momento Outubro Rosa: Entrega de folder com os laços de fita e sensibilização das participantes quanto a temática.</h6>
+                          <strong>Data:</strong> Durante o mês de outubro <br>
+                          <strong>Horário:</strong> 8 às 18h <br>
+                          <strong>Local:</strong> CliniCASSI Belém – Unidade Pará <br>
+                          <hr>
+                          <h6>Outubro Rosa – Sensibilização e Prevenção </h6>
+                          <strong>Data:</strong>Durante o mês de outubro os técnicos das equipes farão contato com a população alvo, para consulta com médico de família. <br>
+                          <strong>Horário:</strong>8 às 18h<br>
+                          <strong>Local:</strong> CliniCASSI Belém – Unidade Pará <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionPB">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingPB">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsePB" aria-expanded="false" aria-controls="collapsePB">
+                              Paraíba  
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapsePB" class="collapse" aria-labelledby="headingPB" data-parent="#accordionPB">
+                        <div class="card-body">
+                          Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionPR">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingPR">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsePR" aria-expanded="false" aria-controls="collapsePR">
+                              Paraná   
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapsePR" class="collapse" aria-labelledby="headingPR" data-parent="#accordionPR">
+                        <div class="card-body">
+                          Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionPE">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingPE">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsePE" aria-expanded="false" aria-controls="collapsePE">
+                              Pernambuco   
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapsePE" class="collapse" aria-labelledby="headingPE" data-parent="#accordionPE">
+                        <div class="card-body">
+                          Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionPI">
+                    <div class="card card-uf">
+                      <div class="card-header" id="headingPI">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsePI" aria-expanded="false" aria-controls="collapsePI">
+                              Piauí    
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapsePI" class="collapse" aria-labelledby="headingPI" data-parent="#accordionPI">
+                        <div class="card-body">
+                          Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>    
+
+          <div class="col-md-4 agenda-custom-campo agenda-custom-campo-outros">
+               
+            <div class="accordion" id="accordionRJ">
+              <div class="card card-uf">
+                <div class="card-header" id="headingRJ">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseRJ" aria-expanded="false" aria-controls="collapseRJ">
+                        Rio de Janeiro
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseRJ" class="collapse" aria-labelledby="headingRJ" data-parent="#accordionRJ">
+                  <div class="card-body">
+                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionRN">
+              <div class="card card-uf">
+                <div class="card-header" id="headingRN">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseRN" aria-expanded="false" aria-controls="collapseRN">
+                        Rio Grande do Norte
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseRN" class="collapse" aria-labelledby="headingRN" data-parent="#accordionRN">
+                  <div class="card-body">
+                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionRS">
+              <div class="card card-uf">
+                <div class="card-header" id="headingRS">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseRS" aria-expanded="false" aria-controls="collapseRS">
+                        Rio Grande do Sul
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseRS" class="collapse" aria-labelledby="headingRS" data-parent="#accordionRS">
+                  <div class="card-body">
+                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionRO">
+              <div class="card card-uf">
+                <div class="card-header" id="headingRO">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseRO" aria-expanded="false" aria-controls="collapseRO">
+                        Rondônia 
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseRO" class="collapse" aria-labelledby="headingRO" data-parent="#accordionRO">
+                  <div class="card-body">
+                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionRR">
+              <div class="card card-uf">
+                <div class="card-header" id="headingRR">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseRR" aria-expanded="false" aria-controls="collapseRR">
+                        Roraima  
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseRR" class="collapse" aria-labelledby="headingRR" data-parent="#accordionRR">
+                  <div class="card-body text-justify">
+                    <h6>Um toque para a vida </h6>
+                    <strong>Data:</strong> 16/10 <br>
+                    <strong>Horário:</strong> das 16h30 às 18h<br>
+                    <strong>Local:</strong> Unidade RR (Rua Prof. Diomedes Souto Maior, 81, Centro).<br>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionSC">
+              <div class="card card-uf">
+                <div class="card-header" id="headingSC">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSC" aria-expanded="false" aria-controls="collapseSC">
+                        Santa Catarina  
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSC" class="collapse" aria-labelledby="headingSC" data-parent="#accordionSC">
+                  <div class="card-body">
+                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion" id="accordionSP">
+              <div class="card card-uf">
+                <div class="card-header" id="headingSP">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSP" aria-expanded="false" aria-controls="collapseSP">
+                        São Paulo 
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSP" class="collapse" aria-labelledby="headingSP" data-parent="#accordionSP">
+                  <div class="card-body">
+                    <h5>CliniCASSI SP Oeste</h5>
+                    <h6>Conversa sobre prevenção de câncer de mama e câncer de colo de útero</h6>
+                    <strong>Data:</strong> 29/10 <br>
+                    <strong>Horário:</strong> 14h <br>
+                    <strong>Local:</strong> Via Microsoft Teams<br>
+                    <hr/>
+                    <h5>CliniCASSI Santos </h5>
+                    <h6>Outubro Rosa – Um olhar integral para a saúde da Mulher</h6>
+                    <strong>Data:</strong> 20/10<br>
+                    <strong>Horário:</strong> 15h<br>
+                    <strong>Local:</strong> Via Microsoft Teams<br>
+                    <hr/>
+                    <h5>CliniCASSI Centro </h5>
+                    <h6>Lenços fraternos - Doação de lenços que será direcionado para uma instituição</h6>
+                    <strong>Data:</strong> Todo o mês de outubro<br>
+                    <strong>Horário:</strong> das 8h às 17h <br>
+                    <strong>Local:</strong> CliniCASSI Centro<br>
+                    <hr/>
+                    <h5>CliniCASSI Araçatuba </h5>
+                    <h6>Outubro Rosa – Dicas sobre prevenção de câncer</h6>
+                    <strong>Data:</strong> 22/10<br>
+                    <strong>Horário:</strong> 14h <br>
+                    <strong>Local:</strong> Via Microsoft Teams<br>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionSE">
+              <div class="card card-uf">
+                <div class="card-header" id="headingSE">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSE" aria-expanded="false" aria-controls="collapseSE">
+                        Sergipe
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSE" class="collapse" aria-labelledby="headingSE" data-parent="#accordionSE">
+                  <div class="card-body">
+                    <h6>Outubro Rosa: O que é, por que surgiu e qual a sua importância?</h6>
+                          <strong>Data:</strong>16/10 <br>
+                          <strong>Horário:</strong>15h <br>
+                          <strong>Local:</strong> Palestra virtual Teams<br>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionTO">
+              <div class="card card-uf">
+                <div class="card-header" id="headingTO">
+                  <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTO" aria-expanded="false" aria-controls="collapseTO">
+                        Tocantins
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTO" class="collapse" aria-labelledby="headingTO" data-parent="#accordionTO">
+                  <div class="card-body">
+                    Consulte a Unidade e fique por dentro das ações voltadas para a saúde da mulher.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+    </section>
+<!-- DIA D -->
+
+<section class="page-section" id="diaD">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-9 custom-faq">
+          <img src="assets/diaD/diaD70.png" class="rounded mx-auto d-block custom-diaD" alt="Responsive image">
+  </div>
+</div>
+</div>
+</section>
+
+<!-- FIM DIA D -->
+
+    <section>
+        <div id="botao-flutuante" class="scroll-botao-flutuante">
+            <a href="#home" class="nav-link"><img src="assets/icon/arrow-up.png" alt=""></a>
+        </div>
+      
+    </li>
+        </div>
+    </section>
+    <footer class="footer-custom text-center">
+        <div class="container  ">
+          
+          <ul class="social gray">      
+            <li><a href="https://www.facebook.com/CASSIBR/" target="_brank"><img src="assets/icon/facebook-brands.png" ></a>         
+            <a href="https://www.instagram.com/cassi.saude/?hl=pt-br" target="_brank"><img src="assets/icon/instagram-brands.png">
+            <a href="https://www.cassi.com.br/" target="_brank"><img src="assets/icon/cassi-brands.png"></i></a></li>          
+          </ul>
+
+          <p><b>Todos os direitos reservados © www.cassi.com.br<br>
+
+            Fontes: Ministério da Saúde – Instituto Nacional de Câncer – Sociedade Brasileira de Mastologia</b></p>
+        </div>            
+
+      </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
