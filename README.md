@@ -4,6 +4,7 @@ Este projeto é um simples hotsite criado com o objetivo de divulga a campanha o
 
 
 ## Technologies 
+* Bootstrap
 * HTML
 * CSS
 * JS 
